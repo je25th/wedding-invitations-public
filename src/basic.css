@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400&display=swap");
+
+#basic {
+  box-shadow: 0px 0px 15px 0px #c1b6ae;
+}
+#basic.basic-wrapper {
+  background-color: #fff;
+  font-family: "Nanum Myeongjo";
+}
+#basic hr {
+  border-top: #749780 solid calc(0.5vw / 6);
+
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* #section-top */
+#basic #section-top .image-container {
+  position: relative;
+}
+#basic #section-top .text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+#basic #section-top p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #fff;
+}
+
+/* #section-day */
+#basic #section-day {
+  margin-top: 1.5%;
+}
+#basic #section-day div {
+  margin-top: 20%;
+  margin-bottom: 20%;
+
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 5rem;
+  text-align: center;
+}
+#basic #section-day div p:nth-child(2) {
+  color: #187792;
+}
+
+/* #section-introduce */
+#basic #section-introduce {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+#basic #section-introduce .promise {
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+#basic #section-introduce .promise p {
+  margin-top: 5%;
+}
+
+#basic #section-introduce .family {
+  line-height: 4rem;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#basic #section-introduce .bride {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+}
+#basic #section-introduce .bride span {
+  flex: 1;
+}
+#basic #section-introduce .bride span:nth-child(2) {
+  flex: 0.1;
+}
+#basic #section-introduce .bride span:nth-child(4) {
+  flex: 0.8;
+  text-align: left;
+  padding-left: 3%;
+}
+#basic #section-introduce .bride .s {
+  font-size: 1.8rem;
+}
+#basic #section-introduce .parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#basic #section-introduce .parent h3 {
+  flex: 0.8;
+}
+#basic #section-introduce .parent > div {
+  flex: 1;
+}
+
+#basic .icon-phone {
+  background-image: url("./../public/assets/basic/icon-phone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: inline-block;
+
+  width: calc(20vw / 6);
+  height: calc(20vw / 6);
+  margin-left: calc(12vw / 6);
+  margin-right: calc(12vw / 6);
+}
+
+/* #section-map */
+#basic #section-map {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* #section-gallary */
+#basic #section-gallary {
+  padding: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#basic #section-gallary .thumnail {
+  margin: 0.5%;
+  width: 19%;
+  height: calc(90vw / 6);
+}
+
+/* .gallery-modal-inner */
+.gallery-modal-inner {
+  height: 100vh;
+}
+.gallery-modal-inner .close {
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
+  height: 40px;
+
+  text-align: right;
+
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.gallery-modal-inner .close span::before {
+  font-size: 35px;
+  content: "\00d7";
+  display: inline-block;
+  color: #fff;
+}
+.gallery-modal-inner .photoView {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: calc(600vw / 6);
+  height: calc(100vh - 80px);
+}
+.gallery-modal-inner .photoView img {
+  max-height: calc(100vh - 80px);
+}
+.gallery-modal-inner .photoView button {
+  font-size: 0;
+  line-height: 0;
+  padding: 3%;
+  height: 65vh;
+}
+.gallery-modal-inner .photoView button::before {
+  opacity: 1;
+  color: #e39298;
+  content: "";
+  background-image: url("./../public/assets/basic/5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 2.5rem;
+  height: 5.26rem;
+  display: inline-block;
+}
+.gallery-modal-inner .photoView button.next {
+  transform: rotate(180deg);
+  transform-origin: 50% 49%;
+}
+#basic .share button {
+  margin-bottom: 5%;
+}
+
+/* line-title */
+#basic .line-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+
+  border-top: #000 solid calc(1.2vw / 6);
+  border-bottom: #000 solid calc(1.2vw / 6);
+
+  padding: 3%;
+}
+
+/* bus-info */
+#basic .bus-info .info {
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 100%;
+}
+#basic .bus-info .info .col {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+#basic .bus-info .info p span {
+  padding-left: 7%;
+  font-size: 2rem;
+  font-weight: 700;
+}

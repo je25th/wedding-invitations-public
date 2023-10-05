@@ -1,0 +1,101 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.6vw;
+}
+body {
+  background-color: #f0e6df;
+}
+textarea {
+  resize: none;
+}
+
+#root {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* .location */
+.location {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 3.6rem;
+}
+.location .navigation {
+  border-top: #000 solid calc(1.2vw / 6);
+  border-bottom: #000 solid calc(1.2vw / 6);
+  padding: 3%;
+}
+.location .navigation span {
+  font-weight: 600;
+  float: left;
+  padding-left: 10%;
+}
+.location .navigation [class^="icon"] {
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: inline-block;
+  vertical-align: text-bottom;
+
+  width: calc(24vw / 6);
+  height: calc(24vw / 6);
+  margin-left: calc(12vw / 6);
+  margin-right: calc(12vw / 6);
+}
+.location .navigation .icon-kakaomap {
+  background-image: url("./../public/assets/icon-kakaomap.png");
+}
+.location .navigation .icon-tmap {
+  background-image: url("./../public/assets/icon-tmap.png");
+}
+
+.hide {
+  display: none;
+}
+
+.modal-content {
+  font-size: 18px;
+  line-height: 46px;
+}
+.modal-content.basic {
+  font-family: "Nanum Myeongjo";
+}
+.modal-content.vintage {
+  font-family: "Pretendard";
+}
+
+.account {
+  text-align: center;
+}
+.account h4 {
+  font-size: 1.1em;
+  color: #7ba188;
+  font-weight: bold;
+}
+.account span {
+  color: #777;
+}
+.account a {
+  cursor: pointer;
+}
+.account hr {
+  border-top: #749780 solid calc(0.5vw / 6);
+  margin-top: 2%;
+  margin-bottom: 3.5%;
+}
+
+/* map */
+.map .daumRoughmapContainer {
+  width: 100%;
+}
+.map .hide {
+  display: none;
+}

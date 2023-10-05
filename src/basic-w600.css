@@ -1,0 +1,30 @@
+@media (min-width: 599px) {
+  #basic hr {
+    border-top-width: 0.5px;
+  }
+
+  #basic .icon-phone {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #basic hr {
+    border-top-width: 0.5px;
+  }
+
+  /* #section-gallary */
+  #basic #section-gallary .thumnail {
+    height: 90px;
+  }
+  .gallery-modal-inner .photoView {
+    width: 600px;
+  }
+
+  /* line-title */
+  #basic .line-title {
+    border-top-width: 1.2px;
+    border-bottom-width: 1.2px;
+  }
+}
