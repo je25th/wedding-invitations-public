@@ -1,0 +1,79 @@
+@media (min-width: 599px) {
+  #vintage header {
+    height: 60px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  #vintage header nav {
+    width: 330px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  /* #section-home */
+  #vintage #section-home h2 {
+    padding: 100px 0;
+  }
+
+  /* .browser-box */
+  #vintage .browser-box {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #vintage .browser-box .content-box,
+  #vintage .browser-box .bottom-box,
+  #vintage .browser-box .confirmation-dialog-box,
+  #vintage .browser-box .confirmation-dialog-box .confirmation-dialog-top,
+  #vintage .browser-box .confirmation-dialog-box button,
+  #vintage .message .message-write-box .write-textarea-box {
+    border-width: 2.8px;
+  }
+  #vintage .browser-box .content-box {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #vintage .browser-box .bottom-box {
+    height: 25px;
+  }
+
+  /* .confirmation-dialog-box */
+  #vintage .browser-box .confirmation-dialog-box {
+    border-top-right-radius: 15px;
+  }
+
+  .browser-box .confirmation-dialog-box .mouse {
+    width: 30px;
+    height: 38.75px;
+  }
+  #vintage .browser-box .confirmation-dialog-box .confirmation-dialog-top {
+    height: 42px;
+    border-top-right-radius: 12px;
+  }
+  #vintage .browser-box .confirmation-dialog-box button {
+    width: 90px;
+  }
+  #vintage .browser-box .confirmation-dialog-box .icon-heart {
+    background-position-y: 2.4px;
+
+    width: 16.2px;
+    height: 17.4px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  /* .account-number */
+  #vintage .browser-box .account-number {
+    border-radius: 7px;
+  }
+
+  /* .message */
+  #vintage .message .message-write-box {
+    width: 360px;
+  }
+
+  /* .gallery */
+  #vintage .gallery .thumnail .slick-slide {
+    height: 126px;
+  }
+}

@@ -1,0 +1,21 @@
+@media (min-width: 599px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  /* .location */
+  .location .navigation {
+    border-top-width: 1.2px;
+    border-bottom-width: 1.2px;
+  }
+  .location .navigation [class^="icon"] {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .account hr {
+    border-top-width: 0.5px;
+  }
+}
